@@ -1,0 +1,27 @@
+{
+  "name": "@narendras/components",
+  "version": "0.0.1",
+  "description": "Assorted react components",
+  "main": "dist/index.js",
+  "author": "Narendra Syahrasyad",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "babel src -d dist --watch",
+    "dev": "parcel docs/index.html"
+  }
+}
